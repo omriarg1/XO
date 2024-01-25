@@ -10,7 +10,8 @@ public class Main {
 	   int choice =s.nextInt();
 	   int Type;
 	   switch(choice) {
-	   case 1:System.out.println("Okay\n1-Play as X\n2-Play as O");
+	   case 1:
+	   System.out.println("Okay\n1-Play as X\n2-Play as O");
 	   Type=s.nextInt();
 	   UserGame newGame2 = new UserGame();
 	   if(Type==1) {
@@ -28,7 +29,7 @@ public class Main {
 	   else throw new Exception("Must choose between 1 and 2");
 	   break;
 	   case 2:
-		  SelfGame selfGame = new SelfGame();
+		 SelfGame selfGame = new SelfGame();
 		 SelfPlayer playerX = new SelfPlayer(selfGame,XO.X);
 		 SelfPlayer playerO = new SelfPlayer(selfGame,XO.O);
 		 System.out.println("----Starting Game----");
