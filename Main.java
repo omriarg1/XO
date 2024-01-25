@@ -1,7 +1,6 @@
+//OFEK CASPI - 208895367 Omri argaman - 314772351
 package XO2;
-
 import java.util.Scanner;
-
 public class Main {
 
 	public static void main(String[] args) throws Exception {
@@ -33,9 +32,9 @@ public class Main {
 		 SelfPlayer playerX = new SelfPlayer(selfGame,XO.X);
 		 SelfPlayer playerO = new SelfPlayer(selfGame,XO.O);
 		 System.out.println("----Starting Game----");
-		selfGame.StartMatch(playerX, playerO);
-		break;
-	   default: throw new Exception("Must choose between 1 and 2");
+		 selfGame.StartMatch(playerX, playerO);
+		 break;
+	     default: throw new Exception("Must choose between 1 and 2");
 	   }
 	   
 	}

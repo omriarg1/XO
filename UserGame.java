@@ -1,5 +1,5 @@
+//OFEK CASPI - 208895367 Omri argaman - 314772351
 package XO2;
-
 public class UserGame extends Game {
 	boolean hasgameEnded;
 	 public void StartMatch(SelfPlayer Computer,UserPlayer User) {
